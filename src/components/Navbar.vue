@@ -13,7 +13,7 @@
             <a
                 class="cursor-pointer select-none text-white underline hover:underline-offset-2"
                 @click="toggleLocale"
-                >{{ $i18n.locale }}</a
+                >{{ getLocaleToDisplay() }}</a
             >
             <a
                 href="https://www.facebook.com/ChristineGilbertQS?__cft__[0]=AZUoYyYMXN-21Y6h7jY10A2awaK2GbGrPY3M4bmbbgWAy3xhSQePVSBZfEOJq0-8-J1tDxToRpVOSiHU-Ueu9vBXMK29AsNtTGcSd8IEmMODj9fmO7Dh_Ze3aC1vEU8hcco-EWpT9pN1CBo1w57120Ja-tYlOmY-DJoqMdJCLl1WOVSZ5mFxvo09oq-uEU4er_jFZxkAyYbcKI160TPfVnEF&__tn__=-]K-R"
@@ -40,7 +40,6 @@ export default {
         const i18n = useI18n();
 
         const toggleLocale = () => {
-            console.log(i18n);
             if (i18n.locale.value === 'fr') {
                 i18n.locale.value = 'en';
                 return;
@@ -49,7 +48,15 @@ export default {
             i18n.locale.value = 'fr';
         };
 
-        return { toggleLocale };
+        const getLocaleToDisplay = () => {
+            if (i18n.locale.value === 'fr') {
+                return 'en';
+            }
+
+            return 'fr';
+        };
+
+        return { toggleLocale, getLocaleToDisplay };
     },
 };
 </script>
