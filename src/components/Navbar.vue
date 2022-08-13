@@ -1,6 +1,6 @@
 <template>
     <div
-        class="sticky inset-x-0 top-0 flex items-center justify-between bg-primary-orange px-12 py-4 shadow-md"
+        class="sticky inset-x-0 top-0 flex items-center justify-between bg-primary-orange px-6 py-4 shadow-md"
     >
         <a href="#" @click="$router.push({ path: '/' })">
             <img
