@@ -1,8 +1,6 @@
 <template>
     <navbar-vue />
-    <router-view
-        class="mx-auto max-w-xs py-12 sm:max-w-xl md:max-w-2xl lg:max-w-3xl"
-    />
+    <router-view />
     <footer-vue />
 </template>
 

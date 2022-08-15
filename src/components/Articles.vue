@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="mb-6 lg:ml-12 mx-6 md:mx-36">
         <h2 class="text-3xl font-light mb-8 mt-12">
             {{ $t('article.title') }}
         </h2>
