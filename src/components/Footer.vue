@@ -1,11 +1,11 @@
 <template>
     <div class="w-full bg-primary-blue px-8 pb-6 pt-3 text-white flex flex-col">
-        <h1 class="py-2"><strong>{{ $t('footer.title') }}</strong></h1>
-        <div class="flex items-center space-x-3 py-2">
+        <h1 class="pt-2 pb-4"><strong>{{ $t('footer.title') }}</strong></h1>
+        <div class="flex items-center space-x-3">
             <a
                 href="https://www.facebook.com/ChristineGilbertQS?__cft__[0]=AZUoYyYMXN-21Y6h7jY10A2awaK2GbGrPY3M4bmbbgWAy3xhSQePVSBZfEOJq0-8-J1tDxToRpVOSiHU-Ueu9vBXMK29AsNtTGcSd8IEmMODj9fmO7Dh_Ze3aC1vEU8hcco-EWpT9pN1CBo1w57120Ja-tYlOmY-DJoqMdJCLl1WOVSZ5mFxvo09oq-uEU4er_jFZxkAyYbcKI160TPfVnEF&__tn__=-]K-R"
                 target="_blank"
-                class="p-2"
+                class="py-2 pr-2"
             >
                 <img class="h-5 w-5" src="@/assets/facebook.png" alt="" />
             </a>
