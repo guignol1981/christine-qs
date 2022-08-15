@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="pt-12">
         <h2 class="text-3xl font-light">
             {{ $t('bio.title') }}
         </h2>

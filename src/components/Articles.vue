@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2 class="text-3xl font-light my-8">
+        <h2 class="text-3xl font-light mb-8 mt-12">
             {{ $t('article.title') }}
         </h2>
         <div class="flex flex-col md:flex-row items-center">
