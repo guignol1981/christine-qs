@@ -9,7 +9,7 @@
                 target="_blank"
                 class="leading-7 rounded-md shadow-xl max-w-md cursor-pointer bg-white mb-6 md:mx-3" v-for="i in 2" :key="i">
                 
-                <div class="rounded-t-md bg-cover h-52" :style="[backgroundImageStyle(i)]"></div>
+                <div class="rounded-t-md bg-cover h-52 bg-center" :style="[backgroundImageStyle(i)]"></div>
                 <div class="text-left px-3 py-3">
                     <h3 class="pb-1">
                         <strong>{{ $t(`article.title${i}`) }}</strong>
