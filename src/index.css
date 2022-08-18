@@ -6,13 +6,13 @@
     font-family: 'Ilisarniq';
     font-weight: 300;
     font-style: normal;
-    src: url('fonts/Ilisarniq-Light.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-Light.otf) format('opentype');
 }
 @font-face {
     font-family: 'Ilisarniq';
     font-weight: 300;
     font-style: italic;
-    src: url('fonts/Ilisarniq-LightItalic.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-LightItalic.otf) format('opentype');
 }
 
 @font-face {
@@ -20,7 +20,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: auto;
-    src: url('fonts/Ilisarniq-Regular.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-Regular.otf) format('opentype');
 }
 
 @font-face {
@@ -28,7 +28,7 @@
     font-weight: 500;
     font-style: italic;
     font-display: auto;
-    src: url('fonts/Ilisarniq-Italic.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-Italic.otf) format('opentype');
 }
 
 @font-face {
@@ -36,7 +36,7 @@
     font-weight: 700;
     font-style: normal;
     font-display: auto;
-    src: url('fonts/Ilisarniq-Bold.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-Bold.otf) format('opentype');
 }
 
 @font-face {
@@ -44,7 +44,7 @@
     font-weight: 700;
     font-style: italic;
     font-display: auto;
-    src: url('fonts/Ilisarniq-BoldItalic.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-BoldItalic.otf) format('opentype');
 }
 
 @font-face {
@@ -52,7 +52,7 @@
     font-weight: 900;
     font-style: normal;
     font-display: auto;
-    src: url('fonts/Ilisarniq-Black.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-Black.otf) format('opentype');
 }
 
 @font-face {
@@ -60,5 +60,5 @@
     font-weight: 900;
     font-style: italic;
     font-display: auto;
-    src: url('fonts/Ilisarniq-BlackItalic.otf') format('opentype');
+    src: url(@/assets/fonts/Ilisarniq-BlackItalic.otf) format('opentype');
 }
