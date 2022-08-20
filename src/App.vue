@@ -20,12 +20,12 @@ export default {
             meta: [
                 {
                     name: 'description',
-                    content: 'Christine Gilbert est la candidate de Québec solidaire dans Lotbinière-Frontenac',
+                    content: 'Christine Gilbert est la candidate de Québec solidaire (QS) dans Lotbinière-Frontenac',
                 },
                 { property: 'og:title', content: "Christine Gilbert | Québec solidaire"},
                 {
                   property: 'og:description',
-                  content: "Christine Gilbert est la candidate de Québec solidaire dans Lotbinière-Frontenac pour les élections provinciales de 2022." +
+                  content: "Christine Gilbert est la candidate de Québec solidaire (QS) dans Lotbinière-Frontenac pour les élections provinciales de 2022." +
                     "Christine a un fort sentiment d’appartenance à la circonscription Lotbinière-Frontenac, autant par son lieu d’habitation qui se situe dans Lotbinière, que par la région d’origine de sa famille, Thetford Mines, dans Frontenac."
                 },
                 { property: 'og:image', content: "https://www.lepeuplelotbiniere.ca/images/contenu/plus/114464_465_310.jpg" },
