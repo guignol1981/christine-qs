@@ -15,6 +15,10 @@ module.exports = {
                 'secondary-mouse': '#AFA197',
                 'secondary-viride': '#059C8C',
             },
+            screens: {
+              '3xl': '1920px',
+              '4xl': '2560px',
+            },
         },
     },
     plugins: [],
