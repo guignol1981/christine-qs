@@ -1,6 +1,6 @@
 <template>
     <section class="lg:w-2/3 2xl:w-7/12 3xl:w-5/12 4xl:w-1/3 relative">
-        <img src="@/assets/Profile_ChristineGilbert.jpg" alt="Photo profil" />
+        <img src="@/assets/Profile_ChristineGilbert.jpg" alt="christine gilbert candidate québec solidaire" />
         <div class="absolute text-5xl md:text-8xl lg:text-6xl xl:text-7xl font-semibold text-white top-0 left-0 mx-3 my-1 lg:mt-8">
             <h1>Christine</h1>
             <h1>Gilbert</h1>

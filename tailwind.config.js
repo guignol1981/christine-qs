@@ -10,6 +10,7 @@ module.exports = {
         extend: {
             colors: {
                 'primary-blue': '#28347C',
+                'primary-green': '#043F21',
                 'primary-orange': '#FF5505',
                 'secondary-rasberry': '#D13B5B',
                 'secondary-mouse': '#AFA197',

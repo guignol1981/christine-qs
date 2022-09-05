@@ -9,20 +9,25 @@ const messages = {
             p5: `She began her involvement with Québec Solidaire during the 2018 campaign. She has since participated in numerous mobilization activities, party bodies and she is running in the provincial election of October 3, 2022 to become the Member of Parliament for Québec Solidaire in Lotbinière-Frontenac. Having at heart to put people and the environment at the center of the priorities of a green, social and sovereign Quebec, she wishes to contribute, thanks to her expertise, to the improvement of services to the population, to the reduction of social inequalities. and the acceleration of the ecological transition more urgent than ever.`,
         },
         article: {
-          title: 'Newspaper appearances',
+          title: 'Parutions dans la presse',
           title1: 'Courrier Frontenac',
-          title2: 'Le Peuple de Lotbinière',
+          title2: 'Courrier Frontenac',
+          title3: 'Le Peuple de Lotbinière',
           description1: 'Christine Gilbert sera candidate pour Québec solidaire dans Lotbinière-Frontenac',
-          description2: 'Christine Gilbert portera les couleurs de QS dans Lotbinière-Frontenac',
+          description2: 'Des solutions concrètes au système d’éducation à deux vitesses',
+          description3: 'Gilbert veut plus de proximité dans les soins de santé',
           url1: 'https://www.courrierfrontenac.qc.ca/actualite/politique/christine-gilbert-sera-candidate-pour-quebec-solidaire-dans-lotbiniere-frontenac/',
-          url2: 'https://www.lepeuplelotbiniere.ca/1067/Politique_.html?id=114464',
+          url2: 'https://www.courrierfrontenac.qc.ca/actualite/politique/elections-provinciales-2022/des-solutions-concretes-au-systeme-deducation-a-deux-vitesses/',
+          url3: 'https://www.lepeuplelotbiniere.ca/1298/%C3%80_la_une_aujourd_hui.html?id=114536',
           image1: 'https://www.courrierfrontenac.qc.ca/wp-content/uploads/sites/8/2022/06/130_053A1821-444x300.jpg',
-          image2: 'https://www.lepeuplelotbiniere.ca/images/contenu/plus/114464_465_310.jpg',
+          image2: 'https://www.courrierfrontenac.qc.ca/wp-content/uploads/sites/8/2022/08/9e693bc7bc036527906793v_00041995-1600x1600.jpg',
+          image3: 'https://www.lepeuplelotbiniere.ca/images/contenu/plus/114536_465_310.jpg',
         },
         footer: {
           title: 'Contact us',
           membership: 'Get your membership',
-          donate: 'Donate'
+          donate: 'Donate',
+          getInvolved: 'Get involved'
         }
     },
     fr: {
@@ -37,19 +42,24 @@ const messages = {
         article: {
           title: 'Parutions dans la presse',
           title1: 'Courrier Frontenac',
-          title2: 'Le Peuple de Lotbinière',
+          title2: 'Courrier Frontenac',
+          title3: 'Le Peuple de Lotbinière',
           description1: 'Christine Gilbert sera candidate pour Québec solidaire dans Lotbinière-Frontenac',
-          description2: 'Christine Gilbert portera les couleurs de QS dans Lotbinière-Frontenac',
+          description2: 'Des solutions concrètes au système d’éducation à deux vitesses',
+          description3: 'Gilbert veut plus de proximité dans les soins de santé',
           url1: 'https://www.courrierfrontenac.qc.ca/actualite/politique/christine-gilbert-sera-candidate-pour-quebec-solidaire-dans-lotbiniere-frontenac/',
-          url2: 'https://www.lepeuplelotbiniere.ca/1067/Politique_.html?id=114464',
+          url2: 'https://www.courrierfrontenac.qc.ca/actualite/politique/elections-provinciales-2022/des-solutions-concretes-au-systeme-deducation-a-deux-vitesses/',
+          url3: 'https://www.lepeuplelotbiniere.ca/1298/%C3%80_la_une_aujourd_hui.html?id=114536',
           image1: 'https://www.courrierfrontenac.qc.ca/wp-content/uploads/sites/8/2022/06/130_053A1821-444x300.jpg',
-          image2: 'https://www.lepeuplelotbiniere.ca/images/contenu/plus/114464_465_310.jpg',
+          image2: 'https://www.courrierfrontenac.qc.ca/wp-content/uploads/sites/8/2022/08/9e693bc7bc036527906793v_00041995-1600x1600.jpg',
+          image3: 'https://www.lepeuplelotbiniere.ca/images/contenu/plus/114536_465_310.jpg',
         },
         footer: {
           title: 'Nous joindre',
           membership: 'Devenir membre',
-          donate: 'Faire un don'
-        }
+          donate: 'Faire un don',
+          getInvolved: 'S\'impliquer'
+       }
     },
 };
 
