@@ -12,6 +12,7 @@
         "@headlessui/vue": "^1.6.5",
         "@heroicons/vue": "^1.0.6",
         "@vueuse/head": "^0.7.9",
+        "click-outside-vue3": "^4.0.1",
         "vue": "^3.2.25",
         "vue-i18n": "9",
         "vue-router": "4"
