@@ -39,7 +39,8 @@ const messages = {
           title: 'Contact us',
           membership: 'Get your membership',
           donate: 'Donate',
-          getInvolved: 'Get involved'
+          getInvolved: 'Get involved',
+          authorization: 'Ruth Messier, Official agent'
         }
     },
     fr: {
@@ -82,7 +83,8 @@ const messages = {
           title: 'Nous joindre',
           membership: 'Devenir membre',
           donate: 'Faire un don',
-          getInvolved: 'S\'impliquer'
+          getInvolved: 'S\'impliquer',
+          authorization: 'Ruth Messier, Agente officielle'
        }
     },
 };
