@@ -5,7 +5,7 @@
         <a href="https://agir.quebecsolidaire.net/" target="_blank" class="py-2 pr-2">{{ $t('footer.getInvolved') }}</a>
         <a href="https://adhesion.quebecsolidaire.net" target="_blank" class="py-2 pr-2">{{ $t('footer.membership') }}</a>
         <a href="https://don.quebecsolidaire.net" target="_blank" class="py-2 pr-2">{{ $t('footer.donate') }}</a>
-        <div class="text-sm pt-4 text-center">{{ $t('footer.authorization') }}</div>
+        <div class="text-xs pt-6">{{ $t('footer.authorization') }}</div>
     </div>
 </template>
 
